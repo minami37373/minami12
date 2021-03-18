@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.company-contents{
+  margin-top: 80px;
+  .wrapper{
+    width: 1080px;
+    @media(max-width:768px){
+      width: 90%;
+    }
+    table{
+      width: 100%;
+      tr{
+        line-height: 4;
+        border-bottom: 1px solid #222;
+        &:first-child{
+          border-top: 1px solid #222;
+        }
+        th{
+        }
+        td{}
+      }
+    }
+  }
+}

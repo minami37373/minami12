@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.news__contents{
+  padding:50px 0 0;
+  .wrapper{
+    width: 95%;
+    .news__list{
+      margin-top: 30px;
+      .news__item{
+        display: block;
+        color: inherit;
+        padding: 25px 15px;
+        margin-bottom: 10px;
+        border: 1px solid #222;
+        @media(max-width:768px){
+          padding:15px 10px;
+          font-size: .9rem;
+        }
+        .news__text{
+          font-weight: bold;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.recruit .wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .recruit .wrapper {
+    width: 90%;
+  }
+}
+
+.recruit .wrapper .recruit__container {
+  margin-top: 80px;
+}
+
+.recruit .wrapper .recruit__container .recruit__ttl {
+  font-size: 1.7em;
+  border-bottom: 1px solid #222;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.recruit .wrapper .recruit__container .recruit__text {
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.recruit .wrapper .recruit__container .recruit__table {
+  width: 100%;
+}
+
+.recruit .wrapper .recruit__container .recruit__table tr {
+  line-height: 3;
+  border: 1px solid #222;
+}
+
+.recruit .wrapper .recruit__container .recruit__table tr th {
+  background-color: #f5f6f9;
+  border-right: 1px solid #222;
+}
+
+.recruit .wrapper .recruit__container .recruit__table tr td {
+  padding-left: 10px;
+}

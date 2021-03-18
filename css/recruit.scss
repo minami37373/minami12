@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.recruit{
+  .wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    @media(max-width:768px){
+      width: 90%;
+    }
+    .recruit__container{
+      margin-top: 80px;
+      .recruit__ttl{
+        font-size: 1.7em;
+        border-bottom: 1px solid #222;
+        text-align: left;
+        padding-bottom: 10px;
+      }
+      .recruit__text{
+        line-height: 1.5;
+        margin: 20px 0;
+      }
+      .recruit__table{
+        width: 100%;
+        tr{
+          line-height: 3;
+          border: 1px solid #222;
+          th{
+            background-color: #f5f6f9;
+            border-right: 1px solid #222;
+          }
+          td{
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
